@@ -24,6 +24,9 @@ namespace Bank
         }
 
         /// <inheritdoc />
+        /// <remarks>
+        /// Will return "Bank Debit Account" for <see cref="DebitAccount"/>.
+        /// </remarks>
         public string AccountType => "Bank Debit Account";
 
         /// <inheritdoc />
