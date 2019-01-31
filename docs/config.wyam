@@ -1,0 +1,8 @@
+#recipe Docs
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "host.com";
+Settings[DocsKeys.Title] = "Bank Docs";
+Settings[DocsKeys.SourceFiles] = "../../src/**/{!bin,!obj,!packages,!*.Tests,}/**/*.cs";
+Settings[DocsKeys.IncludeDateInPostPath] = true;
+Settings[DocsKeys.BaseEditUrl] = "https://github.com/azurevoodoo/DevOpsDocs/blob/develop/docs/input/";
