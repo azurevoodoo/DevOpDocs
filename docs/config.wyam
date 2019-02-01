@@ -7,5 +7,6 @@ Settings[DocsKeys.Logo] = "/assets/img/logo_64.png";
 Settings[DocsKeys.Title] = "Bank Docs";
 Settings[DocsKeys.IncludeDateInPostPath] = true;
 Settings[DocsKeys.BaseEditUrl] = "https://github.com/azurevoodoo/DevOpsDocs/blob/develop/docs/input/";
+// Settings[DocsKeys.AssemblyFiles] = "";
 Settings[DocsKeys.SourceFiles] = "../../src/**/{!bin,!obj,!packages,!*.Tests,}/**/*.cs";
 Settings[DocsKeys.IncludeGlobalNamespace] = false;
